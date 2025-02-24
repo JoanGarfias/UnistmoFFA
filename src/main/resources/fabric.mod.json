@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "unistmo-ffa",
+  "version": "${version}",
+  "name": "UnistmoFFA",
+  "description": "Un mod de FFA para servidores de Minecraft.",
+  "authors": [
+    "TuNombre"
+  ],
+  "contact": {
+    "homepage": "https://tusitio.com",
+    "sources": "https://github.com/turepo/unistmo-ffa"
+  },
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "com.unistmo.ffa.UnistmoFFAMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric": "*",
+    "minecraft": "1.21.4"
+  }
+}
